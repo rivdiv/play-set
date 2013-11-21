@@ -1,0 +1,92 @@
+﻿body {
+    font-family: Microsoft New Tai Lue;
+    font-size: 15px;
+    background-color:black;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+
+.mainContent { 
+    background-color: #E9E9E9;
+}
+
+.mainContainer {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    height: 130px;
+    font-size: 100px; 
+    color: white;
+    padding: 10px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+    font-family: Microsoft New Tai Lue;
+    font-size: 20px;
+    padding: 5px;
+    border-style: none; 
+}
+
+.content {
+    padding: 10px;
+}
+
+
+.forkme {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    width: 149px;
+    height: 149px;
+}
+
+tr {
+    vertical-align: top;
+}
+
+.col1 {
+    width: 50%;
+}
+
+.notifyContainer {height: 30px
+}
+
+.notify {
+     
+    padding: 5px;
+    color: black;
+    background-color: yellow; 
+    text-align: center; 
+}
+.bigCard {
+    padding-bottom:5px;
+    padding-right:5px;
+    padding-left:5px;
+}
+.smallCard {
+    padding-bottom:2px; 
+    padding-right:2px;
+    padding-left:2px;
+}
+.title {
+}
+.roundedCornerBig {
+    border-radius: 10px;
+}
+.roundedCornerSmall {
+     border-radius: 5px;
+}
