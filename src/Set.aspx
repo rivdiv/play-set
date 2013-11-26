@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="mainContainer">
-        <div class="header">SET<a href="https://github.com/you"><img class="forkme" src="Images/fork-me-right-white.png" alt="Fork me on GitHub" /></a></div>
+        <div class="header">SET<a href="https://github.com/rivdiv/play-set"><img class="forkme" src="Images/fork-me-right-white.png" alt="Fork me on GitHub" /></a></div>
         <div class="mainContent">
             <form id="form1" runat="server">
 

@@ -1,1 +1,4 @@
-My readme file.
+<h1>Overview</h1>
+Basic one-player SET game using ASP.NET WebForms.
+
+Future goals would include converting logic to client side and using SignalR to allow for multiple players.
