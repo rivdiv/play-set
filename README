@@ -1,3 +1,5 @@
 Basic one-player SET game using ASP.NET WebForms.
 
 Future goals would include converting logic to client side, using SignalR to allow for multiple players and improving alignment of diamond-shaped cards.
+
+(Cards are generated using the System.Drawing class in CardGenerator.cs.)
