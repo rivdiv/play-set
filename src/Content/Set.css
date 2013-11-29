@@ -1,7 +1,8 @@
-﻿body {
+﻿body
+{
     font-family: Microsoft New Tai Lue;
     font-size: 15px;
-    background-color:black;
+    background-color: black;
     margin-top: 0;
     margin-right: 0;
     margin-left: 0;
@@ -9,43 +10,47 @@
 }
 
 
-.mainContent { 
+.mainContent
+{
     background-color: #E9E9E9;
 }
 
-.mainContainer {
+.mainContainer
+{
     margin: 0 auto;
     padding: 0;
 }
 
-.header {
+.header
+{
     height: 130px;
-    font-size: 100px; 
+    font-size: 100px;
     color: white;
     padding: 10px;
 }
-
-.footer {
+ .footer
+{
     background-color: black;
     color: white;
     padding: 10px;
 }
 
-input[type="submit"],
-input[type="button"],
-button {
+input[type="submit"], input[type="button"], button
+{
     font-family: Microsoft New Tai Lue;
     font-size: 20px;
     padding: 5px;
-    border-style: none; 
+    border-style: none;
 }
 
-.content {
+.content
+{
     padding: 10px;
 }
 
 
-.forkme {
+.forkme
+{
     position: absolute;
     top: 0;
     right: 0;
@@ -54,39 +59,52 @@ button {
     height: 149px;
 }
 
-tr {
+tr
+{
     vertical-align: top;
 }
 
-.col1 {
+.col1
+{
     width: 50%;
 }
 
-.notifyContainer {height: 30px
+.notifyContainer
+{
+    height: 30px;
 }
 
-.notify {
-     
+.notify
+{
     padding: 5px;
     color: black;
-    background-color: yellow; 
-    text-align: center; 
+    background-color: yellow;
+    text-align: center;
 }
-.bigCard {
-    padding-bottom:5px;
-    padding-right:5px;
-    padding-left:5px;
+.bigCard
+{
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
-.smallCard {
-    padding-bottom:2px; 
-    padding-right:2px;
-    padding-left:2px;
+.smallCard
+{
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
 }
-.title {
+.title
+{
 }
-.roundedCornerBig {
+.roundedCornerBig
+{
     border-radius: 10px;
 }
-.roundedCornerSmall {
-     border-radius: 5px;
+.roundedCornerSmall
+{
+    border-radius: 5px;
+}
+a
+{
+    text-decoration: none;
 }

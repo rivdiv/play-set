@@ -9,7 +9,7 @@ using System.Web;
 /// <summary>
 /// Summary description for GenerateCards
 /// </summary>
-public class GenerateCards
+public class CardGenerator
 {
     public void GenerateCardImages()
     {
