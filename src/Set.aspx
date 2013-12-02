@@ -99,10 +99,8 @@
                     </td>
                 </tr>
             </table>
-            <div>
-                <a href="http://www.setgame.com/sites/default/files/tutorials/tutorial/SetTutorial.swf"
-                    target="_blank">How to play</a>
-            </div>
+            <div><a href ="http://www.setgame.com/sites/default/files/tutorials/tutorial/SetTutorial.swf"  target="_blank">How to play</a></div>
+            
             </form>
         </div>
         <div class="footer">

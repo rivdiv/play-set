@@ -142,7 +142,7 @@ public partial class Set : System.Web.UI.Page
         DateTime d = Convert.ToDateTime("1/1/2013 00:" + lblCountDown.Text);
         string message = string.Format("You found {0} SETs in {1} minutes and {2} seconds.", lblYourSetsCount.Text, d.Minute, d.Second);
         btnTweet.Visible = true;
-        btnTweet.OnClientClick = string.Format("window.open('https://twitter.com/intent/tweet?original_referer=http://playnet.azurewebsites.net/&text=I found {0} SETs in {1} minutes and {2} seconds. #WindowsAzure&url=http://playnet.azurewebsites.net&via=rivdiv','twitterPopup','width=300,height=300,toolbar=0,menubar=0,location=0');return false;", lblYourSetsCount.Text, d.Minute, d.Second);
+        btnTweet.OnClientClick = string.Format("window.open('https://twitter.com/intent/tweet?original_referer=http://playnet.azurewebsites.net/&text=I found {0} SETs in {1} minutes and {2} seconds.&hashtags=WindowsAzure&url=http://playnet.azurewebsites.net&via=rivdiv','twitterPopup','width=300,height=300,toolbar=0,menubar=0,location=0');return false;", lblYourSetsCount.Text, d.Minute, d.Second);
 
         btnPick3More.Enabled = false;
         btnStop.Enabled = false;
